@@ -44,7 +44,8 @@
           <h2>Pull Requests</h2>
           <a href="https://confluence.atlassian.com/display/STASH0311/Using+pull+requests+in+Stash"><img src="images/title.png" alt="PR Overview" style="max-height: 75%"></a>
           <p><a href="https://gnarf.github.io/talk-stash-pr/">https://gnarf.github.io/talk-stash-pr</a><br>
-          <small><a href="https://github.com/gnarf/talk-stash-pr">(source) https://github.com/gnarf/talk-stash-pr</a></small></p>
+          <small><a href="https://github.com/gnarf/talk-stash-pr">(source) https://github.com/gnarf/talk-stash-pr</a></small>
+          <small>(space next slide, "s" speaker notes)</p>
           <p style='text-align: right; position: absolute; bottom:0; right: 0;'>
             <small>
               Mx. Corey Frang<br>
@@ -203,11 +204,17 @@
               <li><code>git spr 4</code> - creates local branch pr/4 from the <code>origin</code> remote and checks it out</li>
               <li><code>git pr-clean</code> - removes all pr/* branches from your local repo</li>
             </ul>
+            <aside class="notes">
+              You'll be able to checkout their branches directly, but sometimes it's easier as a maintainer to organize your branches based on pull request number.  I've written some git aliases that can help
+            </aside>
           </section>
 
           <section>
             <h4>Squashed...</h4>
             <img src="images/squash.gif" style="max-width: 65%">
+            <aside class="notes">
+              As a maintainer, when you merge with the `--squash` option, it will allow you to create a new commit.  Just remember to set the author on the new commit or it will go down in history and blame as your fault.
+            </aside>
           </section>
         </section>
 
@@ -216,12 +223,16 @@
           <img src="images/rebase.gif" style="max-width: 65%">
           <p>The Maintainers might ask the Contributor to do this themselves if the conflict is too confusing.</p>
           <a href="https://robots.thoughtbot.com/git-interactive-rebase-squash-amend-rewriting-history">Notes on squash/rebase</a>
+          <aside class="notes">
+            Sometimes the conflict is too hard to merge by the maintainers.  At this point we want to ask the original developer to "rebase" their pull request against the latest "master".  This process is pretty intense, and is one of the most powerful and scary git commands.  I've linked here to some extra notes.
+          </aside>
         </section>
 
 
         <section>
           <h3>Questions?</h3>
           <h4>I use git every day - A.M.A.</h4>
+          <h4>Twitter: <a href="https://twitter.com/@gnarf">@gnarf</a> - anytime!</h4>
         </section>
       </div>
 
