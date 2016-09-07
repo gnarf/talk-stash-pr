@@ -2,7 +2,7 @@ JS and CSS based on [reveal.js](https://github.com/hakimel/reveal.js)
 
 # Get the Most from GitHub
 
-Corey Frang—a long time contributor to the jQuery project—is going to share the many ways that GitHub can make your life easier, increase your entire team’s productivity, and help all of us build better software. Knowing is approximately fifty percent of the battle, though, as they say—there’s more to using GitHub the right way than knowing which buttons to press. Corey will also take us through the social aspects of GitHub: the conventions we all need to know before diving into a major open source project.
+Corey Frang—a long time contributor to the jQuery project—is going to talk about the pull request process on bitbucket
 
 # Run locally
 
